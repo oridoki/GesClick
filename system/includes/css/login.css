@@ -1,0 +1,148 @@
+body {
+    font-family:"arial",sans-serif;
+    font-size:12px;
+    /*height:100%;*/
+    background-color:#e6e6e6;
+}
+
+#login_cont, #register_cont {
+	color 		: #999;
+    display:block;
+    width:430px;
+	height : 300px;
+    /*height:1000px;*/
+    /*height:100%;*/
+    margin-left:auto;
+    margin-right:auto;
+    text-align:left;
+	margin-top : 100px;
+	padding 	: 100px 50px 0 50px;
+	background : #FFF url(../img/login_header.jpg) no-repeat top left;
+	-ms-border-radius: 5px;
+	-moz-border-radius: 5px;  
+	-webkit-border-radius: 5px;  
+	-khtml-border-radius: 5px;
+	-webkit-box-shadow: 0 0 20px rgb(0,0,0);
+	-moz-box-shadow: 0 0 20px rgb(0,0,0);
+	box-shadow: 0 0 20px rgb(0,0,0);
+}
+
+#register_cont {
+	margin-top : 40px;
+	height 		: 550px;
+	background : #FFF url(../img/register_header.jpg) no-repeat top left;
+}
+
+
+input, textarea, select {
+	font-size : 14px;
+	width 	: 430px;
+	height 	: 25px;
+	border 		: 1px solid #C0C3C6;
+	margin-top 	: 5px;
+	border-radius: 3px;  
+	-ms-border-radius: 3px;
+	-moz-border-radius: 3px;  
+	-webkit-border-radius: 3px;  
+	-khtml-border-radius: 3px;
+}
+
+textarea {
+	height 	: 100px;
+	color 	: #666;
+}
+
+input#login {
+	width 	: 150px;
+}
+input#auto_login {
+	width 	: auto;
+	margin 	: 0px;
+	padding : 0px;
+}
+input#cancel, input#register {
+	float 	: right;
+	width 	: 170px;
+	margin 	: 20px 0 0 10px;
+}
+
+p {
+	padding-bottom : 10px;
+}
+
+p.descripcion {
+	padding 	: 10px 0px 20px 0;
+}
+
+p.label_checkbox_pair {
+	margin-top : 10px;
+	height 	: 0px;
+}
+p.label_checkbox_pair input {
+  clear: left;
+  float: left;
+}
+
+div.rememberme {
+	clear: right;
+	float: left;
+	width: 244px;
+	margin : -3px 0 0 5px;
+}
+
+div.access_button {
+	margin 	: -10px 0 40px 200px;
+	text-align : right;
+}
+
+p.centrat {
+	text-align : center;
+}
+
+p.centrat a {
+	color 		: #000;
+	text-decoration:none;
+}
+
+input#forgotten_password {
+	width 		: 150px;
+	height 		: 29px;
+	
+}
+
+input.forgot {
+	width 		: 275px;
+	margin-right: 5px;
+}
+
+h2 {
+	font-size 	: 22px;
+	margin 		: 20px 0 10px 0;
+}
+
+
+div.centered {
+	text-align 	: center;
+	padding-top : 100px;
+	height 		: 300px;
+}
+
+div.centered h2 {
+	margin-top : 50px;
+	margin-bottom : 50px;
+}
+
+div.error {
+	background  : #C44;
+	color 		: #FFF;
+	font-weight : bold;
+	padding 	: 3px 5px;
+	border-radius: 3px;  
+	-ms-border-radius: 3px;
+	-moz-border-radius: 3px;  
+	-webkit-border-radius: 3px;  
+	-khtml-border-radius: 3px;
+}
+
+
+

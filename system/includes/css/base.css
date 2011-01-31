@@ -1,0 +1,310 @@
+body {
+    font-family:"arial",sans-serif;
+    font-size:12px;
+    /*height:100%;*/
+    background-color:#e6e6e6;
+}
+#cont {
+    display:block;
+    width:90%;
+    /*height:1000px;*/
+    /*height:100%;*/
+    margin-left:auto;
+    margin-right:auto;
+    text-align:left;
+	margin-top : 10px;
+	padding 	: 1%;
+	background : #FFF;
+	-ms-border-radius: 5px;
+	-moz-border-radius: 5px;  
+	-webkit-border-radius: 5px;  
+	-khtml-border-radius: 5px;
+}
+
+.linked,
+.lnk,
+a:link,
+a:visited,
+a:hover {
+    color : #669;
+	text-decoration : none;
+	cursor 	: pointer;
+}
+
+input.single {
+	height 	: 20px;
+	border 		: 1px solid #C0C3C6;
+	border-radius: 3px;  
+	-ms-border-radius: 3px;
+	-moz-border-radius: 3px;  
+	-webkit-border-radius: 3px;  
+	-khtml-border-radius: 3px;
+}
+
+textarea.single {
+	border 		: 1px solid #C0C3C6;
+	border-radius: 3px;  
+	-ms-border-radius: 3px;
+	-moz-border-radius: 3px;  
+	-webkit-border-radius: 3px;  
+	-khtml-border-radius: 3px;
+}
+
+.right {
+	text-align 	: right;
+}
+
+fieldset {
+	border 		: 1px dotted #BBB;
+	padding 	: 20px;
+	margin-bottom: 20px;
+	border-radius: 3px;  
+	-ms-border-radius: 3px;
+	-moz-border-radius: 3px;  
+	-webkit-border-radius: 3px;  
+	-khtml-border-radius: 3px;
+}
+
+legend {
+	font-size 	: 14px;
+	color 		: #666;
+}
+
+.rounded {
+	-ms-border-radius: 2px;
+	-moz-border-radius: 2px;  
+	-webkit-border-radius: 2px;  
+	-khtml-border-radius: 2px;
+}
+
+.fleft {
+	position 	: relative;
+	float 		: left;
+}
+
+.title {
+	color 		: #666666;
+	font-size 	: 30px;
+	margin 		: 10px 0 10px;
+	padding 	: 5px 10px 5px 0;
+}
+.description {
+	font-size 	: 12px;
+	color 		: #999;
+	margin 		: 10px 0px 30px 0px;
+}
+
+dt, dd {
+	padding 	: 10px 0 0px 0;
+}
+dt {
+	font-weight 	: bold;
+}
+
+.bar {
+	background 	: #EEE;
+	height 		: 25px;
+	-ms-border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	-khtml-border-radius: 5px 5px 0 0;
+}
+.barbottom {
+	-ms-border-radius:  0 0 5px 5px;
+	-moz-border-radius:  0 0 5px 5px;
+	-webkit-border-radius:  0 0 5px 5px;
+	-khtml-border-radius:  0 0 5px 5px;
+}
+.bar .option {
+	background 	: #FFF;
+	margin 		: 4px;
+	padding 	: 2px 8px;
+	float 		: left;
+	-ms-border-radius:  5px;
+	-moz-border-radius:  5px;
+	-webkit-border-radius:  5px;
+	-khtml-border-radius:  5px;
+	cursor 		: pointer;
+}
+.bar .option a {
+	color 		: #999;
+	font-weight : bold;
+}
+.bar .option:hover a {
+	color 		: #000;
+}
+
+.bar .text {
+	margin 		: 4px;
+	padding 	: 3px 8px 0px 8px;
+	float 		: left;
+	color 		: #999;
+	font-weight : bold;
+}
+.bar .text a {
+	color 		: #999;
+	font-weight : bold;
+}
+.bar .text:hover a {
+	color 		: #000;
+}
+.content {
+	padding 	: 25px;
+}
+
+.floatfix {
+	clear 		: both;
+}
+
+.inOptions {
+	padding 	: 0 20px;
+}
+.inOptions ul {
+	margin-bottom: 15px;
+}
+.inOptions li {
+	padding 	: 4px 15px;
+	background 	: url(../img/arrow.jpg) no-repeat 0px 5px;
+	font-size 	: 13px;
+}
+.reddy, .reddy a {
+	color 		: red;
+}
+.wrapp {
+	width 	: 7px;
+	height 	: 7px;
+	background : url(../img/wrapp.jpg) repeat;
+	cursor : move;
+}
+.noMargin {
+	margin 	: 0px 3px;
+}
+
+.pagination {
+	padding 	: 7px;
+}
+
+.pagination a, .pagination strong {
+	background : #FFF;
+	padding 	: 0px 3px;
+}
+
+div.lateral {
+	position 	: relative;
+	float 		: left;
+	width 		: 290px;
+	height 		: auto;
+	min-height 	: 421px;
+	margin-right : 30px;
+	overflow-x 	: hidden;
+}
+
+div.searchBox {
+	background 	: #EEE url(../img/searchBox.jpg) no-repeat top right;
+	height 		: 100px;
+}
+
+div.optionsBox {
+	height 		: 500px;
+	background 	: #EEE url(../img/optionsBox.jpg) no-repeat bottom left;
+	margin-top 	: -10px;
+
+	-ms-border-radius: 8px 8px 0px 0px;
+	-moz-border-radius: 8px 8px 0px 0px;
+	-webkit-border-radius: 8px 8px 0px 0px;
+	-khtml-border-radius: 8px 8px 0px 0px;
+
+	-webkit-box-shadow: 0px 0 20px rgb(0,0,0);
+	-moz-box-shadow: 0px -5px 5px rgb(150,150,150);
+	box-shadow: 0 0 20px rgb(0,0,0);
+}
+
+div.optionsBox ul {
+	padding		: 50px 40px 0px 70px;
+	width 		: 180px;
+}
+
+div.optionsBox ul li {
+	border-bottom: 1px dotted #666;
+	padding 	: 8px 0;
+	font-size 	: 11px;
+	color 		: #666;
+	text-transform: uppercase;
+	text-align 	: right;
+}
+
+div.optionsBox ul li a,  div.optionsBox ul li span {
+	color 		: #666;
+}
+
+div.optionsBox ul li img {
+	position 	: absolute;
+	margin-left : 10px;
+}
+
+div.botons {
+	text-align 	: right;
+}
+
+input.submit {
+	font-size 	: 16px;
+	padding 	: 7px 20px;
+	background  : #666;
+	color 		: #FFF;
+	font-weight : bold;
+	border 		: 0px;
+	-ms-border-radius: 2px;
+	-moz-border-radius: 2px;  
+	-webkit-border-radius: 2px;  
+	-khtml-border-radius: 2px;
+	cursor 		: pointer;
+}
+
+input.cancel {
+	font-size 	: 16px;
+	padding 	: 7px 20px;
+	background  : #AAA;
+	color 		: #FFF;
+	font-weight : bold;
+	border 		: 0px;
+	-ms-border-radius: 2px;
+	-moz-border-radius: 2px;  
+	-webkit-border-radius: 2px;  
+	-khtml-border-radius: 2px;
+	cursor 		: pointer;
+}
+
+div.percentage {
+	width 		: 100%;
+	height 		: 20px;
+	border 		: 1px solid #777;
+	background 	: url(images/ui-bg_diagonals-thick_20_666666_40x40.png) repeat-x;
+	overflow 	: hidden;
+}
+
+div.innPercentage {
+	height 		: 20px;
+	background 	: url(images/ui-bg_diagonals-thick_18_b81900_40x40.png) repeat-x;
+}
+
+div.textpercentage {
+	color 		: #FFF;
+	font-size 	: 16px;
+	text-align 	: center;
+	margin-top 	: -17px;
+	width 		: 100%;
+}
+
+span.vanadium-advice {
+	padding-left : 5px;
+	color 		: #C44;
+}
+
+input.vanadium-invalid {
+	background 	: url(../img/icons/alert.png) no-repeat center 3px;
+	border 		: 1px solid #C44;
+}
+
+.greytd {
+	color 		: #666;
+}

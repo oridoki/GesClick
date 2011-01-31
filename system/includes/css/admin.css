@@ -1,0 +1,612 @@
+/*		HEADER 		*/
+.header {
+	width 	: 100%;
+	height 	: 95px;
+	background : url(../img/headerrepeat.jpg) repeat-x;
+}
+
+.logo {
+	float 		: left;
+	width 		: 554px;
+	height 		: 95px;
+	background 	: url(../img/header.jpg);
+}
+
+.logout {
+	float 		: right;
+	margin 		: 10px 10px 0 0;
+}
+.logout a {
+	color 		: #FFF;
+}
+
+/*		NAVIGATION 		*/
+.navigation {
+	float 		: left;
+	width		: 100%;
+	height 		: 22px;
+	margin-top 	: -22px;
+}
+	.navigation li {
+		float 	: right;
+		padding : 5px 20px;
+	}
+	.navigation li a {
+		color 		: #FFF;
+		font-size : 14px;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+
+/*		FOOTER 		*/
+.footer {
+	width 		: 100%;
+	background 	: #E4E4E4;
+	height 		: 80px;
+}
+
+
+
+
+/* BILLS */
+
+.dg_fra, .dg_cus {
+	position 	: relative;
+	width 		: 45%;
+	padding 	: 10px 2% 20px 2%;
+	float 		: left;
+}
+.dg_cus {
+	border-left : 1px solid #CCC;
+}
+.bills .estilo {
+	width 		: 100%;
+}
+.bills .estilo td, .bills .estilo th {
+	padding 	: 5px 10px;
+}
+.bills .estilo thead {
+	border-bottom : 1px solid #000;
+}
+
+.bills #td_discount, .bills #td_taxes {
+	display 	 : block;
+}
+
+.bills .bills_view {
+	position 	: relative;
+	float 		: left;
+	width 		: 100%;
+}
+
+	.bills .bills_view .bills_superior {
+		height 	: 200px;
+	}
+	.bills .bills_view .bills_superior .billlogo {
+		width 		: 300px;
+		height 		: 60px;
+	}
+	
+	.bills .bills_view .bills_superior .number, 
+	.bills .bills_view .bills_superior .date, 
+	.bills .bills_view .bills_superior .customerData {
+		position 	: relative;
+		float 		: right;
+		width 		: 214px;
+		height 		: 12px;
+		padding 	: 3px 10px;
+		margin 	 	: -50px 0 0 400px;
+		border-bottom: 1px dotted #666;
+		color 		: #666;
+	}
+	.bills .bills_view .bills_superior .number {
+		border-top: 1px dotted #666;
+		
+	}
+	.bills .bills_view .bills_superior .number, 
+	.bills .bills_view .bills_superior .date {
+		background : url(../img/arrow.jpg) no-repeat 0px 3px;
+		padding-left : 20px;
+		width 		: 194px;
+	}
+
+	.bills .bills_view .bills_superior .date {
+		margin-top 	: -29px;
+	}
+	.bills .bills_view .bills_superior .customerData {
+		margin-top 	: -100px;
+		height 		: 76px;
+	}
+	.bills .bills_view .bills_superior .customerData p {
+		margin 	: 0 0 3px 0px;
+	}
+	.bills .bills_view .bills_superior .biller {
+		float 		: left;
+		width 		: 300px;
+		line-height : 14px;
+		height 		: 100px;
+	}
+	.bills .bills_view .budgets {
+		width 		: 93%;
+		height 		: auto;
+		background 	: #EEE;
+		margin 		: 0 0 50px 0;
+		padding 	: 15px 4% 15px 3%;
+		-ms-border-radius: 0px 25px 25px 0px;
+		-moz-border-radius: 0px 25px 25px 0px;
+		-webkit-border-radius: 0px 25px 25px 0px;
+		-khtml-border-radius: 0px 25px 25px 0px;
+	}
+		.bills .bills_view .budgets thead {
+			color 		: #666;
+			text-transform: uppercase;
+			border-bottom: 1px dotted #666;
+		}
+		.bills .bills_view .budgets tr.grey td {
+			border-bottom: 1px dotted #666;
+		}
+
+		.btop {
+			border-top: 1px dotted #666;
+		}
+
+		.bills .bills_view .budgets td.arrowed {
+			background : url(../img/arrowgrey.jpg) no-repeat 0px 5px;
+		}
+
+	.bills_inferior	{
+		width 		: 100%;
+		border-top  : 1px dotted #666;
+	}
+	.bills_inferior	div {
+		background : url(../img/arrow.jpg) no-repeat 0px 5px;
+		border-bottom: 1px dotted #666;
+		padding 	: 5px 0px 5px 20px;
+		color 		: #666;
+	}
+	
+	.bills_inferior	div.ovservacions, .bills_inferior div.payment {
+		min-height	: 65px;
+	}
+
+.bills .bills_options, .customer .bills_options {
+	position 	: relative;
+	float 		: right;
+	width 		: 20%;
+	border-left : 2px dotted #7C2006;
+	min-height	: 500px;
+}
+
+td.serie {
+	width 		: 80px;
+	color 		: #AAA;
+	font-size 	: 10px;
+}
+
+td.state2 {
+	color 		: #4a4;
+}
+
+td.state1 {
+	color 		: #A44;
+}
+
+td.state0 {
+	color 		: #44A;
+}
+
+
+/* CONTACTS*/
+
+.customer .personal dl {
+	position 	: relative;
+	float 		: left;
+	width 		: 33%;
+}
+.customer .checkbox {
+	padding-bottom : 5px;
+	border-bottom: 1px solid #EEE;
+}
+
+.customer .customer_list {
+	width 		: 100%;
+	float 		: left;
+}
+.customer .customer_list table {
+	width 		: 98%;
+	margin 		: 0 1%;
+}
+.customer .billsList .customer_list {
+	width 		: 98%;
+	float 		: left;
+}
+
+.customer .customer_list td {
+	padding 	: 3px 0;
+}
+.customer .customer_list tr {
+	border-bottom: 1px solid #EEE;
+}
+.customer .customer_list td.options {
+	width 	: 170px;
+	text-align : right;
+}
+.customer #companies {
+	border 	: 1px solid #EEE;
+}
+
+.customer .personal_data dl, .customer .due_data dl {
+	float 	: left;
+	clear 	: both;
+	width 	: 100%;
+}
+.customer .personal_data dt, .customer .due_data dt {
+	float 	: left;
+	width 	: 150px;
+}
+
+.customer .personal_data dd, .customer .due_data dd {
+	float 	: left;
+	width 	: 90px;
+}
+
+.customer .due_data {
+	font-size 	: 14px;
+}
+
+.customer .due_data dt {
+	font-weight : normal;
+}
+
+.customer .personal_view {
+	width 	: 400px;
+	float 	: left;
+}
+
+.customer .due_view {
+	float 	: right;
+	width 	: 250px;
+}
+
+.central {
+	padding-left 	: 320px;
+	min-height 		: 600px;
+}
+
+.customer .billsList {
+	float 	: left;
+	width 	: 100%;
+}
+
+/* CONTACT */
+.list2click {
+	width 	: 100%;
+}
+.list2click tr {
+	cursor 	: pointer;
+	border-bottom:1px solid #EEEEEE;
+}
+.list2click tr td {
+	padding : 3px 0;
+}
+.list2click tr:hover td {
+	background 	: #FFC;
+}
+#editContact-form input {
+	width 		: 100%;
+}
+
+/* CONFIG */
+
+.config .cuadrets {
+	width 		: 100%;
+	height 		: 600px;
+}
+
+.config .cuadrets .cuadre, .config .cuadrets .cuadreEsquerra {
+	position 	: relative;
+	float 		: left;
+	padding 	: 20px;
+	width 		: 44%;
+	margin-bottom : 20px;
+	height 		: 200px;
+	border 		: 1px solid #E4E4E4;
+}
+
+.config .cuadrets .cuadreEsquerra {
+	float 		: right; 
+}
+
+.config .cuadrets .cuadreTitle {
+	position 	: absolute;
+	margin-top	: -26px;
+	background 	: #FFF;
+}
+
+.config .cuadrets .news {
+	height 		: 400px;
+}
+
+.config table {
+	width 		: 100%;
+}
+.config td {
+	padding 	: 10px 5px;
+	vertical-align: middle;
+}
+.config tr {
+	border-bottom: 1px solid #EEE;
+}
+.config tr.grey {
+	background 	: #FAFAFA;
+}
+.config td.options {
+	width 	: 90px;
+	text-align : right;
+}
+.config .company_list, .config .tax_list {
+	border 	: 1px solid #e4e4e4;
+	height 	: 170px;
+	margin-bottom: 10px;
+	overflow-y: scroll;
+}
+.config .company_add {
+	height 		: 27px;
+	width 		: 200px;
+	float 		: right;
+}
+.config .company_add div {
+	position 	: relative;
+	float 		: right;
+	height 		: 62px;
+	margin-left	: 12px;
+}
+.config .company_add div.txt {
+	padding-top : 7px;
+}
+.config .company_add:hover {
+	border-bottom: 1px solid #e4e4e4;
+}
+.config .iimg47 {
+	width 		: 40px;
+	height 		: 28px;
+	overflow 	: hidden;
+	border 		: 1px solid #EEE;
+	text-align  : center;
+}
+
+.config .tax_list {
+	height 		: 98px;
+}
+.config .tax_list td {
+	padding 	: 3px 10px;
+}
+.config .tax_add {
+	height 		: 25px;
+	width 		: 200px;
+	float 		: right;
+}
+.config .tax_add div {
+	position 	: relative;
+	float 		: right;
+	height 		: 62px;
+	margin-left	: 12px;
+	padding-top 	: 5px;
+}
+.config .tax_add div.txt {
+	padding-top : 7px;
+}
+.config .tax_add:hover {
+	border-bottom: 1px solid #e4e4e4;
+}
+
+.config .cuadrets .tax_square {
+	height 		: 120px;
+}
+
+
+#dialog-form input, #dialog-form textarea {
+	width 		: 100%;
+	background 	: #FFF;
+}
+
+#dialog-form textarea {
+	height 		: 100px;
+}
+
+#dialog-form textarea.ui-state-error, #dialog-form textarea.ui-widget-content .ui-state-error, #dialog-form input.ui-state-error, #dialog-form input.ui-widget-content .ui-state-error {
+	background 	: #FEE;
+	color 		: #000;
+}
+
+
+
+
+/* 		GENERAL 	*/
+table.llistat {
+	width 		: 98%;
+	margin 		: 0 1%;
+}
+table.llistat td {
+	padding 	: 10px 0;
+}
+table.llistat tr {
+	border-bottom: 1px solid #EEE;
+}
+table.llistat td.options {
+	text-align : right;
+}
+td.options div {
+	float 	: right;
+	margin 	: 0 2px;
+}
+
+/* PUBLICITAT */
+
+.publiHT {
+	padding-left : 5%;
+	height  : 15px;
+	overflow : hidden;
+}
+
+
+/* SEARCH BOX */
+
+.searchbox {
+	width 		: 215px;
+	height 		: 25px;
+	padding		: 12px 0 0 12px;
+}
+
+.searchbox input {
+	width 		: 214px;
+}
+.searchtype {
+	padding		: 8px 12px;
+	width 		: 215px;
+}
+
+.searchtype input {
+	float 		: right;
+	font-size 	: 16px;
+	padding 	: 2px 20px;
+	background  : #666;
+	color 		: #FFF;
+	font-weight : bold;
+	border 		: 0px;
+	-ms-border-radius: 2px;
+	-moz-border-radius: 2px;  
+	-webkit-border-radius: 2px;  
+	-khtml-border-radius: 2px;
+	cursor 		: pointer;
+}
+
+.paymentResume {
+	margin 		: 30px auto;
+	width 		: 710px;
+}
+.paymentResume .totals {
+	float 		: left;
+	width 		: 200px;
+	text-align 	: center;
+	padding 	: 20px 0px;
+}
+.paymentResume .total0 {
+	border 		: 1px solid #4444AA;
+	margin-right: 50px;
+	background 	: #EEEEFF;
+	color 		: #4444AA;
+}
+.paymentResume .total1 {
+	border 		: 1px solid #AA4444;
+	margin-right: 50px;
+	background 	: #FFEEEE;
+	color 		: #AA4444;
+}
+
+.paymentResume .total2 {
+	border 		: 1px solid #4a4;
+	background 	: #efe;
+	color 		: #4a4;
+}
+
+.paymentResume h1 { 
+	font-size 	: 30px;
+	font-weight : bold;
+}
+
+.paymentResume .totals div {
+	margin-top : 5px;
+}
+
+.assistant {
+	padding 	: 30px 50px;
+	border 		: 1px solid #860000;
+	background 	: #FFEEEE;
+	text-align  : center;
+}
+
+.assistant h1 {
+	font-size 	: 25px;
+	margin-bottom: 20px;
+}
+
+.assistant p {
+	padding 	: 5px 0;
+}
+
+td.type1 {
+	color 		: #922;
+}
+td.type2 {
+	color 		: #229;
+}
+td.type3 {
+	color 		: #992;
+}
+td.type4 {
+	color 		: #929;
+}
+div.circle {
+	width 	: 10px;
+	height 	: 10px;
+	margin 	: 0px 0 0 5px;
+	-ms-border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	-khtml-border-radius: 10px 10px 10px 10px;
+}
+
+#contassistant {
+    display:block;
+    width:600px;
+    /*height:1000px;*/
+    /*height:100%;*/
+    margin-left:auto;
+    margin-right:auto;
+    text-align:left;
+	margin-top : 10px;
+	padding 	: 1%;
+	background : #FFF;
+	-ms-border-radius: 5px;
+	-moz-border-radius: 5px;  
+	-webkit-border-radius: 5px;  
+	-khtml-border-radius: 5px;
+}
+
+#contassistant h2 {
+	font-size 	: 18px;
+	font-weight : bold;
+	margin-bottom: 10px;
+}
+
+div.step {
+	width 		: 500px;
+	cursor 		: pointer;
+	padding 	: 20px;
+	color 		: #666;
+	border 		: 1px solid #FEE;
+	margin 		: 5px 0px;
+}
+div.step:hover {
+	background	: #FEE;
+	border 		: 1px solid #F44;
+}
+div.step h2 {
+	font-size 	: 17px;
+	font-weight : bold;
+	margin-bottom: 10px;
+}
+
+div.green, div.green:hover {
+	background 	: #EFE;
+	border 		: 1px solid #EFE;
+	cursor 		: auto;
+}
+
+div.bar div.totals {
+	position 	: relative;
+	float 		: right;
+	font-weight : bold;
+	margin 		: 0px 8px 0 0;
+}
