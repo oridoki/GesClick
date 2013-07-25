@@ -1,0 +1,688 @@
+/**
+ * Theme Name: Gesclick
+ * Theme URI: http://www.gesclick.com
+ * Description: Gesclick
+ * Version: 0.2
+ * Author: WebClau
+ * Author URI: http://www.webclau.com
+ * Tags: 
+ *Template: hybrid
+*/
+/* Get base CSS */
+@import url('../hybrid/library/css/21px.css');
+
+/* Get default Hybrid CSS */
+@import url('../hybrid/library/css/screen.css');
+
+/* Get the plugins CSS */
+@import url('../hybrid/library/css/plugins.css');
+
+/* Get the plugins CSS */
+@import url('../hybrid/library/css/drop-downs.css');
+
+
+html, body, div, span, object, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	font-family : Arial, Georgia,Times,"Times New Roman",serif;
+	font-size 	: 12px;
+	letter-spacing : 0.5px;
+}
+h2, h3, h4, h5, h6 {
+	color 	: #444;
+}
+a, .widget a {
+	text-decoration: none;
+}
+
+/* Normalización y cosas raras*/
+
+
+/* ESTILS */
+body {
+	background 	: #FFF url("images/background.jpg") repeat-x;
+}
+
+#body-container {
+	width		: 100%;
+	min-height 	: 696px;
+	margin 		: 0px;
+}
+
+div#header-container, div#container, div#navigation {
+	width 		: 985px;
+	margin 		: 0px auto 0px auto;
+}
+
+div#header-container {
+	height		: 109px;
+	background 	: #FFF url("images/background.jpg") repeat-x;
+}
+
+/* HEADER */
+
+	div#header {
+	}
+
+	h1#site-title, div#site-title {
+		margin 		: 0px;
+		width 		: 178px;
+		height 		: 57px;
+		cursor 		: pointer;
+		background 	: url("images/logo.png") no-repeat 15px 10px;
+	}
+	
+	h1#site-title span, h1#site-title a, div#site-title span, div#site-title a {
+		display 	: none;
+	}
+
+	h2#site-description, div#site-description {
+		width 		: 270px;
+		height 		: 30px;
+	}
+
+	h2#site-description span, div#site-description span {
+		color 		: #FFF;
+		font-size 	: 13px;
+		font-style 	: italic;
+		display 	: block;
+		margin 		: -5px 0 0 40px;
+	}
+
+
+/* ! HEADER */
+
+
+/*  NAVIGATION  */
+	
+	div#navigation {
+		width 		: 500px;
+		height		: 77px;
+		overflow 	: hidden;
+		margin-top	: -109px;
+		padding		: 0 0 32px 425px;
+		
+	}
+	
+	#page-nav li {
+		position 	: relative; 
+		float 		: left;
+		margin 		: 0px;
+		padding 	: 55px 30px 0px 30px;
+		height 		: 22px;
+		text-align 	: left;
+	}
+
+	#page-nav li.current_page_item, #page-nav li.current_page_parent {
+		background : url("images/current.png") repeat-x;
+		padding 	: 25px 30px 30px 30px;
+	}
+	
+	#page-nav li a {	
+		background  : transparent;
+		color 		: #FFF;
+		border 		: 0px;
+		padding 	: 4px;
+		text-transform: uppercase;
+	}
+	
+	#page-nav li.current_page_item a {
+		color 		: #FFF;
+	}
+	#primary .current-cat a {
+		color 		: #910000;
+	}
+
+	#page-nav li ul {display: none;}
+
+/*  !NAVIGATION  */
+
+div#container {
+	background 	: #1c1c1b;
+}
+
+div#content {
+	background 	: #FFF url("images/content.jpg") repeat-x;
+	padding 	: 20px 0px;
+	min-height	: 800px;
+}
+
+div.content, .no-widgets .content, .page-template-no-widgets .content {
+	width 		: 685px;
+	margin 		: 0 0 0 260px;
+	background 	: url("http://gesclick.com/wp-content/themes/gesclick2/images/central.gif") repeat-y;
+	padding 	: 0px 20px 20px 39px;
+}
+
+div.post, #comments-template {
+	padding 	: 0px 20px 20px 30px;
+}
+
+div.page-title {
+	font-size 	: 22px;
+	color 		: #444;
+	font-weight	: bold;
+	margin-bottom: 12px;
+}
+.attachment-title, .category-title {
+	display 	: none;
+}
+
+.entry-title {
+}
+
+.byline, .archive .byline, .search .byline  {
+	margin-bottom: 12px;
+	color 	: #BBB;
+}
+.byline a {
+	color 	: #AAA;
+}
+.entry-title a {
+	font-size 	: 22px;
+	color 		: #444;
+	font-style 	: normal;
+	font-weight : normal;
+	padding-left : 0;
+}
+
+.entry-content {
+	color 		: #777;
+}
+
+
+/* CONTACTAR */
+form.cformsform {
+	background 	: url("http://gesclick.com/wp-content/themes/gesclick2/images/contactar.jpg") no-repeat 0 40px;
+}
+
+form.cform fieldset {
+	background 	: transparent;
+	border-width : 0px;
+	padding 	: 0px;
+	margin 		: 0px;
+}
+
+form.cform legend {
+	display 	: none;
+}
+
+div.entry ol.cf-ol li {
+	background	: url("images/input2.png") no-repeat top left !important;
+	height 		: 32px;
+	width 		: 389px;
+	padding 	: 5px 0 0 0;
+}
+
+form.cform textarea, form.cform input {
+	border-width: 0px;
+	background 	: #FFF;
+	height 		: 20px;
+	width 		: 245px;
+}
+
+form.cform textarea{
+	height		: 100px;
+}
+form.cform .cf-fs2 {
+	margin-top 	: 0px;
+}
+
+form.cform .emailreqtxt, form.cform span.reqtxt {
+	display 	: none;
+}
+
+div.entry ol.cf-ol li#li--9 {
+	background	: url("images/area.png") no-repeat top left !important;
+	height 		: 150px;
+	width 		: 389px;
+	padding 	: 5px 0 0 0;
+}
+
+form.cform p.cf-sb {
+	margin:-35px 0 0 200px;
+	position:absolute;
+	width:150px;
+}
+
+form.cform input.backbutton, form.cform input.resetbutton, form.cform input.sendbutton {
+	width 	: 150px;
+	margin 	: 0px;
+	*margin-left: -150px;
+	height	: 20px;
+	border-width: 0px;
+	border : 0px !important;
+	background 	: #FFF;
+	font-size 	: 12px;
+	text-transform : uppercase;
+	cursor 		: pointer;
+}
+
+div.cform {
+	margin-top 	: 0px;
+}
+
+/* ! CONTACTAR */
+
+
+/* ROTATOR */
+
+div#rotator {
+	position 	: absolute;
+	top 		: 206px;
+	margin-left	: 622px;
+	width 		: 361px;
+	height 		: 79px;
+}
+
+div.rotator {
+	position 	: absolute;
+	width 		: 361px;
+	height 		: 79px;
+	top 		: 0px;
+	left 		: 0px;
+	display 	: none;
+}
+
+div.rtt1 {
+	background 	: url("http://gesclick.com/wp-content/themes/gesclick2/images/rtt1.png") no-repeat top left;
+}
+div.rtt2 {
+	background 	: url("http://gesclick.com/wp-content/themes/gesclick2/images/rtt2.png") no-repeat top left;
+}
+div.rtt3 {
+	background 	: url("http://gesclick.com/wp-content/themes/gesclick2/images/rtt3.png") no-repeat top left;
+}
+div.rtt4 {
+	background 	: url("http://gesclick.com/wp-content/themes/gesclick2/images/rtt4.png") no-repeat top left;
+}
+
+/* ! ROTATOR */
+
+
+
+#footer {
+	color 		: #666;
+}
+
+#footer a {
+	color 		: #666;
+	font-weight	:bold;
+}
+
+#footer .copyright, #footer .privacitat, #footer .avis {
+	padding 	: 0 10px;
+}
+
+/* PRIMARY */
+
+	#primary {
+		position 	: absolute;
+		top 		: 130px;
+		margin-left : 0px;
+		width 		: 255px;
+		height 		: auto;
+		padding 	: 15px;
+		background  : #FFF;
+	}
+
+	#primary ul, #primary li {
+		list-style  : none;
+		padding 	: 0px;
+		margin 		: 0px;
+	}
+
+	#primary .widget-title {
+		font-size 	: 18px;
+		font-weight : normal;
+		font-style 	: normal;
+		color 		: #666;
+	}
+
+	#primary ul {
+		padding-bottom: 10px;
+	}
+
+	#primary ul li a {
+		color 		: #777;
+		text-transform: none;
+	}
+
+
+/* ! PRIMARY */
+
+/* SECONDARY */
+
+	div#secondary {
+		position 	: absolute;
+		top 	 	: 15px;
+		margin-left : 640px;
+		height		: 195px;
+		width 		: 335px;
+		overflow 	: hidden;
+		display 	: none;
+	}
+	
+	div.wdg_cto {
+		position 	: absolute;
+		top 		: 0px;
+		margin-left	: 100px;
+		height 		: 100px;
+		width 		: 225px;
+		line-height	: 16px;
+	}
+		div.wdg_cto h1 {
+			padding 	: 0px;
+			margin 		: 0px;
+			color 		: #BA2224;
+			font-weight : bold;
+		}
+
+	div.wdg_desc {
+		position 	: absolute;
+		top 		: 115px;
+		height 		: 100px;
+		width 		: 325px;
+		color 		: #FFF;
+		line-height	: 16px;
+	}
+
+/* ! SECONDARY */
+
+/* FOOTER */
+
+	div.shadowLeft {
+		position 	: absolute;
+		top 		: 0px;
+		margin-left : 0px;
+		width 		: 20px;
+		height 		: 897px;
+		background 	: url("http://gesclick.com/wp-content/themes/gesclick2/images/shadowLeft.png") no-repeat top left;
+	}
+
+	div.shadowRight {
+		position 	: absolute;
+		top 		: 0px;
+		margin-left : 965px;
+		width 		: 20px;
+		height 		: 897px;
+		background 	: url("http://gesclick.com/wp-content/themes/gesclick2/images/shadowRight.png") no-repeat top left;
+	}
+
+/* !FOOTER */
+
+/* CATEGORY */
+	
+	div.logoteca {
+		height 		: 35px;
+		margin-bottom: 5px;
+		margin-left : 0px;
+		width 		: 640px;
+	}
+	
+	div.wc_logos {
+		position 	: relative;
+		float 		: left;
+		width 		: 114px;
+		height 		: 50px;
+		padding-top : 8px;
+		text-align 	: center;
+		margin-right: 10px;
+		text-align 	: center;
+	}
+
+	div.checked_logos {
+		background 	: url("http://gesclick.com/wp-content/themes/gesclick2/images/logoSelected.gif") no-repeat top left;
+	}
+	
+	.category .category-info { 
+		margin 		: 0px;
+	}
+
+	div.wc_logos img {
+		width 		: auto;
+		height 		: 35px;
+		margin 		: 0px; 
+		padding 	: 0px;
+		border 		: 0px;
+	}
+
+/* ! CATEGORY */
+
+
+
+
+
+
+
+/**
+ * jQuery lightBox plugin
+ * This jQuery plugin was inspired and based on Lightbox 2 by Lokesh Dhakar (http://www.huddletogether.com/projects/lightbox2/)
+ * and adapted to me for use like a plugin from jQuery.
+ * @name jquery-lightbox-0.5.css
+ * @author Leandro Vieira Pinho - http://leandrovieira.com
+ * @version 0.5
+ * @date April 11, 2008
+ * @category jQuery plugin
+ * @copyright (c) 2008 Leandro Vieira Pinho (leandrovieira.com)
+ * @license CC Attribution-No Derivative Works 2.5 Brazil - http://creativecommons.org/licenses/by-nd/2.5/br/deed.en_US
+ * @example Visit http://leandrovieira.com/projects/jquery/lightbox/ for more informations about this jQuery plugin
+ */
+#jquery-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 90;
+	width: 100%;
+	height: 500px;
+}
+#jquery-lightbox {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	text-align: center;
+	line-height: 0;
+}
+#jquery-lightbox a img { border: none; }
+#lightbox-container-image-box {
+	position: relative;
+	background-color: #fff;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+}
+#lightbox-container-image { padding: 10px; }
+#lightbox-loading {
+	position: absolute;
+	top: 40%;
+	left: 0%;
+	height: 25%;
+	width: 100%;
+	text-align: center;
+	line-height: 0;
+}
+#lightbox-nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 10;
+}
+#lightbox-container-image-box > #lightbox-nav { left: 0; }
+#lightbox-nav a { outline: none;}
+#lightbox-nav-btnPrev, #lightbox-nav-btnNext {
+	width: 49%;
+	height: 100%;
+	zoom: 1;
+	display: block;
+}
+#lightbox-nav-btnPrev { 
+	left: 0; 
+	float: left;
+}
+#lightbox-nav-btnNext { 
+	right: 0; 
+	float: right;
+}
+#lightbox-container-image-data-box {
+	font: 10px Verdana, Helvetica, sans-serif;
+	background-color: #fff;
+	margin: 0 auto;
+	line-height: 1.4em;
+	overflow: auto;
+	width: 100%;
+	padding: 0 10px 0;
+}
+#lightbox-container-image-data {
+	padding: 0 10px; 
+	color: #666; 
+}
+#lightbox-container-image-data #lightbox-image-details { 
+	width: 70%; 
+	float: left; 
+	text-align: left; 
+}	
+#lightbox-image-details-caption { font-weight: bold; }
+#lightbox-image-details-currentNumber {
+	display: block; 
+	clear: left; 
+	padding-bottom: 1.0em;	
+}			
+#lightbox-secNav-btnClose {
+	width: 66px; 
+	float: right;
+	padding-bottom: 0.7em;	
+}
+
+#footer-container {
+	width 		: 100%;
+	height 		: 255px;
+	margin 		: 0px;
+	background 	: url("images/footer.jpg") repeat-x;
+}
+
+#footer {
+	width 		: 985px;
+	height 		: 220px;
+	margin 		: 0 auto;
+	padding 	: 35px 0 0 0;
+}
+
+div.esquerra {
+	position 	: relative; 
+	float 		: left;
+	width 		: 510px;
+	margin-right: 40px;
+	min-height 	: 800px;
+}
+div.dreta {
+	position 	: relative; 
+	float 		: left;
+	width 		: 435px;
+	min-height 	: 800px;
+}
+
+div.moduleA, div.moduleB {
+	position 	: relative;
+	float 		: left;
+	height 		: 140px;
+	margin-bottom: 20px;
+}
+
+div.moduleA {
+	width 		: 240px;
+	padding-right: 20px;
+}
+div.moduleB {
+	width 		: 240px;
+	padding-right: 0px;
+}
+
+div.moduleA h1, div.moduleB h1 {
+	font-size 	: 15px;
+	color 		: #000;
+	margin-bottom: 10px;
+	height 		: 20px;
+	padding 	: 12px 0 0 35px;
+	font-weight : bold;
+	color 		: #444;
+}
+div.moduleA p, div.moduleB p {
+	line-height : 26px;
+	color 		: #777;
+	text-align 	: justify;
+}
+
+h1.fact {background 	: url("images/icons/fact.jpg") no-repeat top left;}
+h1.web {background 		: url("images/icons/web.jpg") no-repeat top left;}
+h1.user {background 	: url("images/icons/user.jpg") no-repeat top left;}
+h1.email {background 	: url("images/icons/mail.jpg") no-repeat top left;}
+h1.company {background 	: url("images/icons/company.jpg") no-repeat top left;}
+h1.address {background 	: url("images/icons/address.jpg") no-repeat top left;}
+
+div.resume h1 {
+	font-size 	: 22px;
+	color 		: #444;
+}
+div.resume p {
+	color 		: #777;
+}
+
+div.buttons { height: 55px;}
+
+div.buttons div {
+	position 	: relative;
+	float 		: left;
+	width 		: 123px;
+	height 		: 44px;
+	color 		: #FFF;
+	text-align 	: center;
+	padding-top : 10px;
+	font-weight : bold;
+	cursor 		: pointer;
+}
+
+div.buttons div.button1 {background 	: url("images/buttons/1.jpg") no-repeat top left; margin-right: 20px;}
+div.buttons div.button2 {background 	: url("images/buttons/2.jpg") no-repeat top left; margin-right: 20px;}
+div.buttons div.button3 {background 	: none; padding-top: 0px; }
+div.buttons div.button3 input {padding: 0px;}
+
+div.buttons div a {
+	color 	: #FFF;
+}
+div.video { margin-top: 40px; height: 293px;}
+
+div#footer h2 {font-size: 18px; color: #FFF; font-weight:normal;}
+div.lastest_news, div.recent_tweets, div.get_connected {
+	position 	: relative;
+	float 		: left;
+	width 		: 30%;
+	margin-right : 3%;
+}
+div#footer p {
+	color 		: #AAA;
+	margin-bottom : 10px;
+}
+div#footer a {
+	color 		: #AAA;
+}
+
+.page-template-_home #primary {
+	display 	: none;
+}
+
+#comments-template {
+	color 	: #777;
+}
+
+.breadcrumb {
+    color: #888;
+    font-size: 0.9em;
+    font-style: italic;
+    margin: -50px 0 0 32px;
+    position: absolute;
+}
+.breadcrumb a {
+	color 	: #FFF;
+}

@@ -1,0 +1,4 @@
+Sitemap: http://gesclick.com/sitemap.xml
+
+User-agent: *
+Disallow:
